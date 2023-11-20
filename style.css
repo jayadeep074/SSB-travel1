@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(235, 231, 231, 0.957);
+    height: 90px;
+    padding: 0px 90px;
+}
+
+.hd-img h1{
+    font-size: 30px;
+}
+
+.hd-img span{
+    color: rgb(60, 4, 113);
+}
+
+header ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+header li a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+li a:hover{
+    color: rgb(60, 4, 113);
+}
+
+.hd-img{
+    display: flex;
+    align-items: center;
+}
+
+.hd-middle img{
+    width: 70px;
+}
+
+.home{
+    background-image: url(./images/Thanjavur-Brihadeeshwara-Temple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 0px 90px;
+    overflow: hidden;
+}
+
+.container-hm{
+    width: 50%;
+}
+.container-hm h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.container-hm input{
+    width: 150px;
+    height: 40px;
+    background-color: #e9e6e6;
+    color: #000000;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.container-hm input:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container-abt{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 90px;
+    gap: 6rem;
+}
+
+.abt-tit{
+    width: 40%;
+}
+
+.abt-tit h1{
+    font-size: 40px;
+}
+
+.abt-tit span{
+    color: rgb(60, 4, 113);
+}
+
+.abt-tit p{
+    color: gray;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.abt-tit input{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(60, 4, 113);
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.abt-tit input:hover{
+    background-color: #000000;
+}
+
+.abt-img{
+    width: 50%;
+}
+
+.abt-img img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+}
+
+.travel h1{
+    font-size: 40px;
+    padding: 40px 90px;
+
+}
+
+.travel span{
+    color: rgb(60, 4, 113);
+}
+
+.container-tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.img-br{
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.img-br:hover{
+    border: 2px solid rgb(220, 7, 7);
+}
+
+.img-br img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    
+}
+
+.img-br img:hover{
+    transform: scaleX(1.3);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h3 i{
+    color: rgb(255, 34, 0);
+    font-size: 22px;
+}
+
+.ic i{
+    color: rgb(255, 204, 0);
+    font-size: 20px;
+}
+
+.container-tn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 100%;
+    margin: 80px 0px;
+    padding: 30px 90px;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.ssb-tn{
+    text-align: center;
+    font-size: 30px;
+}
+
+.ssb-tn span{
+    color: rgb(60, 4, 113);
+}
+
+.contact{
+    padding: 30px 90px;
+    background-color: rgb(171, 171, 180);
+
+}
+
+.contact h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.contact span{
+    color: rgb(60, 4, 113);
+}
+
+.container-ctc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.detail-ctc input{
+    width: 450px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 450px;
+    height: 200px;
+    resize: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.detail-ctc button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(60, 4, 113);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.detail-ctc button:hover{
+    background-color: #000000;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.container-ft{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    flex-wrap: wrap;
+    color: #ffffff;
+    width: 100%;
+    padding: 40px 90px;
+}
+
+.container-ft ul li{
+    list-style: none;
+}
+
+.container-ft li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.container-ft li a:hover{
+    color: rgb(60, 4, 113);
+}
+
+.media a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.media a:hover{
+    color: rgb(60, 4, 113);
+}
+
+.location p{
+    width: 300px;
+    font-size: 15px;
+}
+
+.location a{
+    color: #ffffff;
+}
+
+.location a:hover{
+    color: rgb(60, 4, 113);
+}
+
+.location i{
+    padding-right: 10px;
+}
+
+.footer-1{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(198, 192, 192);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.footer-1 span{
+    color: rgb(60, 4, 113);
+}
+
+.cm-1, .cm-2{
+    border: 3px solid rgb(60, 4, 113);
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+@media (max-width: 600px){
+    .map iframe{
+        width: 400px;
+    }
+
+    header li a{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 500px){
+    .container-hm h1{
+        font-size: 20px;
+    }
+
+    .container-hm p{
+        font-size: 10px;
+    }
+
+    .container-hm input{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 420px){
+    .map iframe{
+        width: 300px;
+    }
+
+    .detail-ctc input{
+        width: 300px;
+        height: 40px;
+    }
+
+    textarea{
+        width: 300px;
+        height: 200px;
+    }
+
+    .state-tn img{
+        width: 100%;
+    }
+
+    .location p{
+        width: 100%;
+    }
+}
